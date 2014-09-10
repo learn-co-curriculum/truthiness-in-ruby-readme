@@ -1,7 +1,7 @@
 ---
 tags: readme
 language: ruby
-resources: 0
+resources: 1
 track: web development
 topic: ruby
 unit: control flow
@@ -35,3 +35,6 @@ In Ruby only false and nil are falsey.  Everything else is truthy (yes, even 0 i
 |{:hi=>"there"}| yes     |
 
 You get the idea!
+
+## Resources
+* [JFarmer's Gists](https://gist.github.com/jfarmer/) - [Truthy and Falsey in Ruby](https://gist.github.com/jfarmer/2647362)
