@@ -1,4 +1,13 @@
-truthiness-in-ruby-readme
-=========================
+---
+tags: readme
+language: ruby
+resources: 0
+track: web development
+topic: ruby
+unit: control flow
+lesson: truthiness
+---
 
-readme about truthiness in ruby
+# Truthiness
+
+WIP
