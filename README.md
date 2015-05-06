@@ -12,6 +12,8 @@ lesson: truthiness
 
 ## Introduction
 
+![Truthiness](http://upload.wikimedia.org/wikipedia/en/thumb/8/85/Truthiness.png/300px-Truthiness.png)
+
 Many programming languages, including Ruby, have native boolean (true and false) data types.  In Ruby they're called `true` and `false`. 
 
 But oftentimes we want to use a non-boolean value (integers, strings, arrays, etc.) in a boolean context (if statement, &&, ||, etc.).  So someone designing a language has to decide what values count as "true" and what count as "false."  A non-boolean value that counts as true is called "truthy," and a non-boolean value that counts as false is called "falsey."
