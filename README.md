@@ -1,9 +1,13 @@
 # Truthiness
 
 ## Objectives
-1. Recognize boolean values in Ruby
-2. Understand why the concept of truthiness is significant in programming
-3. Learn what is truthy and what is falsey in Ruby
+
+1. Recognize the significance of truthiness in programming. 
+2. Identify boolean values in Ruby.
+
+Bonus:
+
+1. Determine truthiness with the double-bang operator (`!!`).
 
 ## Introduction
 
