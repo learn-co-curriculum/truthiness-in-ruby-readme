@@ -17,13 +17,13 @@ Many programming languages, including Ruby, have native boolean (true or false) 
 
 **Advanced:** *This is not the case in all languages. In Python, boolean values are capitalized,* `True` *and* `False`, *while in Objective-C they are different words* `YES` *and* `NO`. *However, they all represent the same concept of Boolean logic.*
 
-These boolean values come in handy in programming when we want to implement flow control. We're going to learn more about this later, but for now, just understand that flow control is the idea that we can tell our program to execute certain lines of code based upon certain conditions.
+These boolean values come in handy in programming when we want to implement control flow. We're going to learn more about this later, but for now, just understand that control flow is the idea that we can tell our program to execute certain lines of code based upon certain conditions.
 
 ### Booleans and Flow Control
 
 For example, *if* I am tired, then I will take a nap. Otherwise, I will keep reading this insightful and informative readme. You could also invert the perspective like in this example: 
 
-If it is *true* that I am tried, then I will take a nap. If it is *false* that I am tired, then I won't take a nap. 
+If it is *true* that I am tired, then I will take a nap. If it is *false* that I am tired, then I won't take a nap. 
 
 Flow control is predicated on these true-or-false boolean values. The adjectives "truthy" and "falsey" are a programming convention for describing the *state* of being true and the *state* of being false.
 
@@ -31,7 +31,7 @@ What this example amounts to is this: we want to be able to use non-boolean valu
 
 Consequently, Ruby must have a way of determining what counts as true at a given moment—or what is "truthy" versus what is "falsey". 
 
-Remember, don't worry about understanding flow control and implementing it right now. This is just to provide some background about why we care about the concept of truthiness in Ruby. 
+Remember, don't worry about understanding control flow and implementing it right now. This is just to provide some background about why we care about the concept of truthiness in Ruby. 
 
 ## What Is 'truthy' and 'falsey' in Ruby?
 
