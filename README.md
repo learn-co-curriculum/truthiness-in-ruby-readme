@@ -57,8 +57,21 @@ You get the idea!
 ### Bonus: Determining Truthiness
 
 If you forget to memorize this handy chart, there is a trick you can use to determine if a value is truthy or falsey. 
+A **single bang operator**, `!`, will negate the boolean value it is placed in front of. For example: 
 
-**The double bang operator:** We've already seen that a "single-bang operator" (`!`) will negate a boolean value. A "double-bang operator" (`!!`) will return `true` or `false` based on whether a value is truthy or falsey to begin with. 
+```ruby
+!true 
+  => false
+```
+
+and 
+
+```ruby
+!false
+  => true
+```
+
+**The double bang operator:** A "double-bang operator" (`!!`) will return `true` or `false` based on whether a value is truthy or falsey to begin with. 
 
 For example: 
 
