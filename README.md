@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Recognize the significance of truthiness in programming. 
+1. Recognize the significance of truthiness in programming.
 2. Identify boolean values in Ruby.
 
 Bonus:
@@ -21,23 +21,23 @@ These boolean values come in handy in programming when we want to implement cont
 
 ### Booleans and Flow Control
 
-For example, *if* I am tired, then I will take a nap. Otherwise, I will keep reading this insightful and informative readme. You could also invert the perspective like in this example: 
+For example, *if* I am tired, then I will take a nap. Otherwise, I will keep reading this insightful and informative readme. You could also invert the perspective like in this example:
 
-If it is *true* that I am tired, then I will take a nap. If it is *false* that I am tired, then I won't take a nap. 
+If it is *true* that I am tired, then I will take a nap. If it is *false* that I am tired, then I won't take a nap.
 
 Flow control is predicated on these true-or-false boolean values. The adjectives "truthy" and "falsey" are a programming convention for describing the *state* of being true and the *state* of being false.
 
 What this example amounts to is this: we want to be able to use non-boolean values (like strings or integers) in a boolean context; we want to be able to say, "*if* a certain statement *evaluates* to true (or is "truthy"), then execute these certain lines of code."
 
-Consequently, Ruby must have a way of determining what counts as true at a given moment—or what is "truthy" versus what is "falsey". 
+Consequently, Ruby must have a way of determining what counts as true at a given moment—or what is "truthy" versus what is "falsey".
 
-Remember, don't worry about understanding control flow and implementing it right now. This is just to provide some background about why we care about the concept of truthiness in Ruby. 
+Remember, don't worry about understanding control flow and implementing it right now. This is just to provide some background about why we care about the concept of truthiness in Ruby.
 
 ## What Is 'truthy' and 'falsey' in Ruby?
 
 Programming languages are software, too! That means the people who built Ruby had to decide what is truthy and what is falsey. Different languages make different decisions.
 
-**In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is truthy).** 
+**In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is truthy).**
 
 Become familiar with the following chart:
 
@@ -59,30 +59,27 @@ You get the idea!
 
 ### Bonus: Determining Truthiness
 
-If you forget to memorize this handy chart, there is a trick you can use to determine if a value is truthy or falsey. 
-A **single bang operator**, `!`, will negate the boolean value it is placed in front of. For example: 
+If you forget to memorize this handy chart, there is a trick you can use to determine if a value is truthy or falsey.
+A **single bang operator**, `!`, will negate the boolean value it is placed in front of. For example:
 
 ```ruby
-!true 
-  => false
+!true  #=> false
 ```
 
-and 
+and
 
 ```ruby
-!false
-  => true
+!false #=> true
 ```
 
-**The double bang operator:** A "double-bang operator" (`!!`) will return `true` or `false` based on whether a value is truthy or falsey to begin with. 
+**The double bang operator:** A "double-bang operator" (`!!`) will return `true` or `false` based on whether a value is truthy or falsey to begin with.
 
-For example: 
+For example:
 
-```ruby 
-!!"hello"
-  => true
-!!nil
-  => false
+```ruby
+!!"hello" #=> true
+
+!!nil #=> false
 ```
 
 ## Resources
