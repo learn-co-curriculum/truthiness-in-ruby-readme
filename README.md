@@ -1,13 +1,14 @@
 # Truthiness
 
+## Overview
+
+In this lesson, we'll explain the significance of truthiness in programming and identify boolean values in Ruby. 
+
 ## Objectives
 
-1. Recognize the significance of truthiness in programming.
-2. Identify boolean values in Ruby.
-
-Bonus:
-
-1. Determine truthiness with the double-bang operator (`!!`).
+1. Define control flow and how Boolean values help in implementing it in programming.
+2. List what is truthy and falsey in Ruby.
+3. Use the double bang operator to determine truthiness in Ruby. 
 
 ## Introduction
 
@@ -17,7 +18,7 @@ Many programming languages, including Ruby, have native boolean (true or false) 
 
 **Advanced:** *This is not the case in all languages. In Python, boolean values are capitalized,* `True` *and* `False`, *while in Objective-C they are different words* `YES` *and* `NO`. *However, they all represent the same concept of Boolean logic.*
 
-These boolean values come in handy in programming when we want to implement control flow. We're going to learn more about this later, but for now, just understand that control flow is the idea that we can tell our program to execute certain lines of code based upon certain conditions.
+These boolean values come in handy in programming when we want to implement control flow. Control flow is the idea that we can tell our program to execute certain lines of code based upon certain conditions.
 
 ### Booleans and Flow Control
 
