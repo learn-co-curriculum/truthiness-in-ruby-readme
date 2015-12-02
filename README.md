@@ -85,3 +85,5 @@ For example:
 
 ## Resources
 * [JFarmer's Gists](https://gist.github.com/jfarmer/) - [Truthy and Falsey in Ruby](https://gist.github.com/jfarmer/2647362)
+
+<a href='https://learn.co/lessons/truthiness-in-ruby-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
