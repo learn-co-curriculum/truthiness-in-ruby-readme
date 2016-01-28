@@ -86,4 +86,4 @@ For example:
 ## Resources
 * [JFarmer's Gists](https://gist.github.com/jfarmer/) - [Truthy and Falsey in Ruby](https://gist.github.com/jfarmer/2647362)
 
-<a href='https://learn.co/lessons/truthiness-in-ruby-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/truthiness-in-ruby-readme' title='Truthiness'>Truthiness</a> on Learn.co and start learning to code for free.</p>
