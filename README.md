@@ -56,7 +56,7 @@ Become familiar with the following chart:
 
 You get the idea!
 
-**Top-Tip:** Even an empty string, `" "`, is truthy! This might seem kind of strange, but it will make more sense once we learn more about object orientation. For now, keep in mind that even an empty string is an instance of the String class. Again, that sentence might not mean a lot to you right now, but it will soon...
+**Top-Tip:** Even an empty string, `""`, is truthy! This might seem kind of strange, but it will make more sense once we learn more about object orientation. For now, keep in mind that even an empty string is an instance of the String class. Again, that sentence might not mean a lot to you right now, but it will soon...
 
 ### Bonus: Determining Truthiness
 
@@ -87,3 +87,5 @@ For example:
 * [JFarmer's Gists](https://gist.github.com/jfarmer/) - [Truthy and Falsey in Ruby](https://gist.github.com/jfarmer/2647362)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/truthiness-in-ruby-readme' title='Truthiness'>Truthiness</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/truthiness-in-ruby-readme'>Truthiness</a> on Learn.co and start learning to code for free.</p>
