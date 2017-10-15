@@ -50,7 +50,9 @@ Become familiar with the following chart:
 |nil           | no      |
 |6.7           | yes     |
 |true          | yes     |
+|TRUE          | yes     |
 |false         | no      |
+|FALSE         | no      |
 |[1,2]         | yes     |
 |{:hi=>"there"}| yes     |
 
@@ -86,4 +88,4 @@ For example:
 ## Resources
 * [JFarmer's Gists](https://gist.github.com/jfarmer/) - [Truthy and Falsey in Ruby](https://gist.github.com/jfarmer/2647362)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/truthiness-in-ruby-readme' title='Truthiness'>Truthiness</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/truthiness-in-ruby-readme'>Truthiness</a> on Learn.co and start learning to code for free.</p>
