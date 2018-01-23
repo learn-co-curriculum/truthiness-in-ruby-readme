@@ -50,7 +50,9 @@ Become familiar with the following chart:
 |nil           | no      |
 |6.7           | yes     |
 |true          | yes     |
+|TRUE          | yes     |
 |false         | no      |
+|FALSE         | no      |
 |[1,2]         | yes     |
 |{:hi=>"there"}| yes     |
 
