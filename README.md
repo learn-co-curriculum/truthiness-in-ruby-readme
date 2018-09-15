@@ -45,7 +45,7 @@ Become familiar with the following chart:
 | Value        | Truthy? |
 |:------------:|:-------:|
 |0             | yes     |
-| " "          | yes
+| ""           | yes
 |"hello"       | yes     |
 |nil           | no      |
 |6.7           | yes     |
@@ -58,7 +58,7 @@ Become familiar with the following chart:
 
 You get the idea!
 
-**Top-Tip:** Even an empty string, `" "`, is truthy! This might seem kind of strange, but it will make more sense once we learn more about object orientation. For now, keep in mind that even an empty string is an instance of the String class. Again, that sentence might not mean a lot to you right now, but it will soon...
+**Top-Tip:** Even an empty string, `""`, is truthy! This might seem kind of strange, but it will make more sense once we learn more about object orientation. For now, keep in mind that even an empty string is an instance of the String class. Again, that sentence might not mean a lot to you right now, but it will soon...
 
 ### Bonus: Determining Truthiness
 
