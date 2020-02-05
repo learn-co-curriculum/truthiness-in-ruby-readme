@@ -45,7 +45,8 @@ Become familiar with the following chart:
 | Value        | Truthy? |
 |:------------:|:-------:|
 |0             | yes     |
-| ""           | yes
+| ""           | yes     |
+|[]            | yes     |
 |"hello"       | yes     |
 |nil           | no      |
 |6.7           | yes     |
